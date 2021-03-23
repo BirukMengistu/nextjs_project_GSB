@@ -1,0 +1,27 @@
+.container {
+    --hColor: var(--white);
+    --textColor: var(--white);
+    position: relative;
+    background: linear-gradient(0.25turn, rgb(140, 86, 161) 30%,  rgb(77, 102, 184));
+    padding-top: 100px;
+    padding-bottom: 90px;
+  }
+  
+  .grid {
+    margin-top: 20px;
+     padding-left: 10%;
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr 2fr;
+  }
+  
+  .container  div li {
+   padding-left: -10px;
+   list-style: none;
+  }
+  .background {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: -50px;
+  }
+  

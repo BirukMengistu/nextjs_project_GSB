@@ -1,0 +1,34 @@
+.nav {
+  height: 50px;
+  padding: 10px;
+  background: linear-gradient(0.25turn, rgb(140, 86, 161) 30%,  rgb(77, 102, 184));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo{
+  margin: 10px;
+  font-size: 40px;
+  background-color: rgb(189, 202, 207);
+  border-radius: 0 0 10px 10px ;
+  padding: 10px;
+  font-weight: 600;
+  color: rgb(14, 12, 12);
+  padding-bottom: -10px;
+  text-decoration: none;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+}
+
+.nav ul li:first-child {
+  margin-right: auto;
+}
